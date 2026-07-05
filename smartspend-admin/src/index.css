@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --c-base-950: 8 11 16;
+  --c-base-900: 11 15 23;
+  --c-base-850: 15 20 29;
+  --c-base-800: 19 25 36;
+  --c-base-700: 26 33 48;
+  --c-base-600: 36 45 63;
+  --c-base-500: 58 67 88;
+
+  --c-ink-100: 245 247 250;
+  --c-ink-300: 199 205 217;
+  --c-ink-400: 154 163 181;
+  --c-ink-500: 114 124 144;
+
+  --c-accent-400: 52 226 154;
+  --c-accent-500: 31 214 122;
+  --c-accent-600: 22 185 104;
+  --c-accent-700: 15 152 86;
+
+  color-scheme: dark;
+}
+
+html.light {
+  --c-base-950: 247 249 251;
+  --c-base-900: 255 255 255;
+  --c-base-850: 255 255 255;
+  --c-base-800: 242 244 247;
+  --c-base-700: 226 229 234;
+  --c-base-600: 203 208 216;
+  --c-base-500: 150 158 171;
+
+  --c-ink-100: 13 17 25;
+  --c-ink-300: 55 62 75;
+  --c-ink-400: 100 108 124;
+  --c-ink-500: 138 146 161;
+
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  background: rgb(var(--c-base-950));
+  color: rgb(var(--c-ink-100));
+  font-family: "Inter", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgb(var(--c-base-600)); border-radius: 8px; }
+:focus-visible { outline: 2px solid rgb(var(--c-accent-500)); outline-offset: 2px; }
