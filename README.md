@@ -329,13 +329,10 @@ Income   Expenses   Budgets
 
 ---
 
-
 # Developed By
 
-*HARSHINI N.B.S*
-*SRINITHI P*
+**HARSHINI N.B.S** &nbsp; | &nbsp; **SRINITHI P**
 
----
 
 # License
 
