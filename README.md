@@ -278,7 +278,8 @@ Add screenshots of the following pages:
 
 # Developed By
 
-**Harshini**
+**HARSHINI N.B.S
+*SRINITHI P*
 
 ---
 
